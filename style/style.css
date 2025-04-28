@@ -4,15 +4,15 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #d6acff;
+    background-color: #dfbfff;
 }
 
 .seccion1__imagen {
-    width: 100vw;
-    height: 50vh;
     border-radius: 5vh;
+    width: 100%;
+    height: 50%;
 
-    position: absolute;
+    position: relative;
     top: -5vh;
 }
 
@@ -30,12 +30,12 @@ body {
     width: 3.5vw;
 }
 
-.seccion1__text__1 , .seccion1__text__2 , .seccion1__text__3 , .seccion1__text__4 , .seccion1__text__5 , .seccion1__text__6 , .seccion1__text__7{
+#seccion1__text__1 , .seccion1__text__2 , .seccion1__text__3 , .seccion1__text__4 , .seccion1__text__5 , .seccion1__text__6 , .seccion1__text__7{
     font-family:  "Comic Relief";
     color: white;
 }
 
-.seccion1__text__1 {
+#seccion1__text__1 {
     font-size: 2vh;
     font-weight: 500;
     position: absolute;
@@ -93,6 +93,152 @@ body {
     position: absolute;
     top: 39vh;
     left: 10vw;
+}
+
+
+/* SECCION 2 - APARTADO DE BOTONES  VISTA DE LA PAGINA*/
+
+
+.seccion2__today {
+    background-color: #d8a1ff;
+
+    width: 25vw;
+    height: 5vh;
+
+    position: absolute;
+    top: 48vh;
+    left: 5vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+    
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
+
+}
+
+.seccion2__tomorrow {
+    background-color: white;
+
+    width: 25vw;
+    height: 5vh;
+
+    position: absolute;
+    top: 48vh;
+    left: 37vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
+
+}
+
+.seccion2__10days {
+    background-color: white;
+
+    width: 25vw;
+    height: 5vh;
+    
+    position: absolute;
+    top: 48vh;
+    left: 70vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
+}
+
+
+
+
+/* CUADROS */
+
+.seccion2__windSpeed {
+    background-color: #e0b1ffda;
+
+    width: 42vw;
+    height: 8vh;
+    
+    position: absolute;
+    top: 57vh;
+    left: 5vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
+}
+
+
+
+.seccion2__rainChance {
+    background-color: #e0b1ffda;
+
+    width: 42vw;
+    height: 8vh;
+    
+    position: absolute;
+    top: 57vh;
+    left: 53vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
+}
+
+.seccion2__pressure {
+    background-color: #e0b1ffda;
+
+    width: 42vw;
+    height: 8vh;
+    
+    position: absolute;
+    top: 67vh;
+    left: 53vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
+}
+
+.seccion2__uvIndex {
+    background-color: #e0b1ffda;
+
+    width: 42vw;
+    height: 8vh;
+    
+    position: absolute;
+    top: 67vh;
+    left: 5vw;
+
+    border-radius: 2vh;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 1.5vh;
+    font-family:  "Comic Relief";
 }
 
 
