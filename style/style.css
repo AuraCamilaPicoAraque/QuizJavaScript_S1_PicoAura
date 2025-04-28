@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d6acff;
+}
+
+.seccion1__imagen {
+    width: 100vw;
+    height: 50vh;
+    border-radius: 5vh;
+
+    position: absolute;
+    top: -5vh;
+}
+
+.seccion1__objeto__nube {
+    position: absolute;
+    top: 15vh;
+    left: 68vw;
+    width: 20vw;
+}
+
+.seccion1__objeto__busqueda {
+    position: absolute;
+    top: 5.5vh;
+    left: 88vw;
+    width: 3.5vw;
+}
+
+.seccion1__text__1 , .seccion1__text__2 , .seccion1__text__3 , .seccion1__text__4 , .seccion1__text__5 , .seccion1__text__6 , .seccion1__text__7{
+    font-family:  "Comic Relief";
+    color: white;
+}
+
+.seccion1__text__1 {
+    font-size: 2vh;
+    font-weight: 500;
+    position: absolute;
+    top: 3vh;
+    left: 5vw;
+}
+
+.seccion1__text__2 {
+    font-size: 9.5vh;
+    font-weight: 500;
+    position: absolute;
+    top: 11vh;
+    left: 5vw;
+}
+
+.seccion1__text__3 {
+    font-size: 1.8vh;
+    font-weight: 500;
+    position: absolute;
+    top: 27vh;
+    left: 22vw;
+}
+
+.seccion1__text__4 {
+    font-size: 2.7vh;
+
+    font-weight: 500;
+    position: absolute;
+    top: 25vh;
+    left: 69vw;
+}
+
+.seccion1__text__5 {
+    font-size: 2vh;
+
+    font-weight: 500;
+    position: absolute;
+    top: 34vh;
+    left: 82vw;
+}
+
+.seccion1__text__6 {
+    font-size: 2vh;
+
+    font-weight: 500;
+    position: absolute;
+    top: 37.5vh;
+    left: 76vw;
+}
+
+.seccion1__text__7 {
+    font-size: 1.8vh;
+
+    font-weight: 500;
+    position: absolute;
+    top: 39vh;
+    left: 10vw;
+}
+
+
+/*
+@media screen and (max-widh: 768px) { 
+
+}
+*/
