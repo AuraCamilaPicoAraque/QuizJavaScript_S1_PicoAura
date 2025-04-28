@@ -19,3 +19,15 @@ desactualizados, lo que puede llevar a decisiones incorrectas, como salir sin ab
 intuitiva, dificultando que los usuarios encuentren rápidamente la información que buscan.
 3. Falta de Personalización: Muchas aplicaciones no permiten a los usuarios configurar alertas o seguir el
 clima en ubicaciones específicas que les interesan, lo que limita su utilidad.
+
+
+
+# Tabla de contenido 
+
+
+| Indice | Titulo |Informacion|
+|--|--|--|
+| 1 | [index]index.html| Desarroollo pagina|
+| 2 | [Dia2]| style.css| Seccion 2|
+
+
